@@ -9,6 +9,7 @@ public class C0617_16 {
 
 		// 구구단 출력 시 2-9단까지 출력하는데 홀수단(3, 5, 7, 9단)만 출력하시오.
 		for (int i=2;i<=9;i++) {
+			if (i%2==0) continue;
 				System.out.println("[ "+i+"단 ]");
 			for (int j=1;j<=9;j++) {
 				System.out.println(i+"*"+j+"="+(i*j));
