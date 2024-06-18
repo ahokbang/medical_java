@@ -15,9 +15,7 @@ public class C0617_16 {
 				System.out.println(i+"*"+j+"="+(i*j));
 				}
 			}
-		}
-			
-		
+		}			
 		
 		// 1~10까지의 합을 출력하시오.
 //		int sum = 0;
