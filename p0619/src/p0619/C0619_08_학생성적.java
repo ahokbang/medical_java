@@ -157,6 +157,7 @@ public class C0619_08_학생성적 {
 						System.out.printf("[ %s점수 수정 ] \n", title[choice+1]);
 						// 국어점수 : score[temp_no][0]
 						System.out.printf("현재 %s 점수 : %d",title[choice+1],score[temp_no][choice-1]);
+						System.out.println();
 						System.out.println("---------------------------------");
 						System.out.printf("변경 %s 점수를 입력하세요. >> \n", title[choice+1]);
 						score[temp_no][choice-1] = scan.nextInt();
