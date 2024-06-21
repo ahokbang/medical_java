@@ -27,6 +27,8 @@ public class C0619_08_학생성적 {
 			System.out.println("1. 성적 입력");
 			System.out.println("2. 성적 출력");
 			System.out.println("3. 성적 수정");
+			System.out.println("4. 학생 검색");
+			System.out.println("5. 등수 처리");
 			System.out.println("0. 프로그램 종료");
 			System.out.println("----------------------------");
 			System.out.println("원하는 번호를 입력하세요(0: 프로그램 종료). >> ");
@@ -209,6 +211,17 @@ public class C0619_08_학생성적 {
 					
 				} // if
 				System.out.println("입력한 이름 : "+search);
+				
+				break;
+				
+			case 4:
+				System.out.println("[ 학생 검색 ]");
+				System.out.println();
+				
+				break;
+				
+			case 5:
+				System.out.println("[ 등수 처리 ]");
 				
 				break;
 				
