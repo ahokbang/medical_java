@@ -31,7 +31,7 @@ public class Stu_pro {
 	} // screen
 
 	// 학생성적입력 메소드
-	void stu_input() {
+	void stu_input(Stu_score[] sc) {
 		while (true) {
 			System.out.println("[ 학생 성적 입력 ]");
 			s_count = Stu_score.count;
@@ -71,12 +71,6 @@ public class Stu_pro {
 		} // while
 		
 	} // stu_input
-
-
-
-
-
-
 
 } // class
 

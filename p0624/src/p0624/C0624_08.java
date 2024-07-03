@@ -9,7 +9,7 @@ public class C0624_08 {
 		Stu_score stu;
 //		stu.kor = 100; // error, new를 안해서 공간이 없음.
 //		Stu_score s = new Stu_score(); // 기본 생성자 호출
-		Stu_score s = new Stu_score("s0001","홍길동",100, 100, 100); // 기본 생성자 호출
+		Stu_score s = new Stu_score("홍길동",100, 100, 100); // 기본 생성자 호출
 		System.out.println("합계 : "+s.total);
 		System.out.println("평균 : "+s.avg);
 		Stu_score s2 = new Stu_score(); // 매개변수 비워 있으면 사용 못해, 사용하기 위해서는 기본생성자가 정의되어 있으면 됨.

@@ -60,34 +60,31 @@ public class Calculate {
 	 * return math; 
 	 * } // math
 	 */
-	
-	
-	
-	
-//	int result = 0;
+		
+	int result = 0;
 	// 메소드 명 : cal()
 	// return result; 사용할 것
 	
 	// 배열일 경우 : 매개변수를 줄일 수 있는 이점이 있음
-	/*
-	 * int cal(int[] arr, String str) { 
-	 * switch(str) { 
-	 * case "+" : 
-	 * result = arr[0] + arr[1]; 
-	 * break; 
-	 * case "-" : 
-	 * result = arr[0] - arr[1]; 
-	 * break; 
-	 * case "*" : 
-	 * result = arr[0] * arr[1]; 
-	 * break; 
-	 * case "/" : 
-	 * result = arr[0] / arr[1]; 
-	 * break; } 
-	 * // switch
-	 * 
-	 * return result;
-	 */
+	
+	 int cal(int[] arr, String str) { 
+	 switch(str) { 
+	 case "+" : 
+		 result = arr[0] + arr[1]; 
+		 break; 
+	 case "-" : 
+		 result = arr[0] - arr[1]; 
+		 break; 
+	 case "*" : 
+		 result = arr[0] * arr[1]; 
+		 break; 
+	 case "/" : 
+		 result = arr[0] / arr[1]; 
+		 break; 
+	 	} 	 // switch
+	 
+	 return result;
+	 }
 	
 //	} // cal
 //	

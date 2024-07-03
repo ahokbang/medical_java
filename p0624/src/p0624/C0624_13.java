@@ -25,6 +25,9 @@ public class C0624_13 {
 				
 				break;
 				
-	}
-
-}
+			} //switch
+			
+		} // while
+	} // main 
+		
+} // class

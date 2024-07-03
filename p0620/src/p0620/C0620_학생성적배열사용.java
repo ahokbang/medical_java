@@ -35,7 +35,7 @@ public class C0620_학생성적배열사용 {
 			System.out.println("----------------------");
 			System.out.println("원하는 번호를 입력하세요. >> ");
 			int choice = scan.nextInt();
-			scan.nextLine();
+			scan.nextLine(); // enter키 때문
 			
 			switch(choice) {
 			case 1:

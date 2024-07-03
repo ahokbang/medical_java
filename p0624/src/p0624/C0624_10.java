@@ -5,11 +5,7 @@ public class C0624_10 {
 	public static void main(String[] args) {
 		// 생성자
 		
-		
-		
-		
-		
-		
+
 		Stu_score s = new Stu_score();
 		s.stuNo = "S0001";
 		s.name = "홍길동";
@@ -21,9 +17,8 @@ public class C0624_10 {
 		
 		
 		// 매개변수가 있는 생성자 사용
-		Stu_score s2 = new Stu_score("S0002","우관순",100,88,85);
-				
-		
+		Stu_score s2 = new Stu_score("유관순",100,88,85);
+						
 		Stu_score s3 = new Stu_score();
 		s3=s2; // 얕은복사 : 주소값만 복사
 		s3.kor = 10;
